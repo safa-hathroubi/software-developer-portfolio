@@ -25,10 +25,17 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
+import flutter from "./tech/flutter.png";
+import firebase from "./tech/firebase.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+
+import food4future from "./company/food4future.png";
+import telcotec from "./company/telcotec.png";
+import nasoft from "./company/nasoft.png";
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -86,4 +93,9 @@ export {
   youtube,
   linkedin,
   twitter,
+    food4future,
+    telcotec,
+    nasoft,
+    flutter,
+    firebase
 };

@@ -54,11 +54,12 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I love designing and building creative solutions, and turning ideas into fun experiences.
+          I've worked with Flutter, Firebase and Node.js, and I'm currently diving
+          deep into the Javascript ecosystem with React.js and Three.js.
+
+          I speak English, Italian, French, and Arabic, so no matter where you're from, let’s
+          connect and build something awesome! 🚀
         </motion.p>
 
         {/* Service Card */}

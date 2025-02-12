@@ -35,7 +35,7 @@ import {
   youtube,
   linkedin,
   twitter,
-  github,
+  github, food4future, telcotec, nasoft, flutter, firebase,
 } from "../assets";
 
 // Navbar Links
@@ -65,19 +65,19 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Node.js Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ] as const;
@@ -105,12 +105,12 @@ export const TECHNOLOGIES = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Flutter",
+    icon: flutter,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Node JS",
@@ -141,45 +141,43 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Mobile Software Engineer",
+    company_name: "Food4Future Startup",
+    icon: food4future,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2024 - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Spiraw, a multifunctional IoT mobile application for spirulina cultivation.",
+      "Designed and implemented an animated social networking module to enhance user engagement.",
+      "Integrated an e-shop module into the app.",
+      "Set up MQTT communications between the app and the IoT device for real-time updates.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Flutter Developer",
+    company_name: "Telcotec",
+    icon: telcotec,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed the full UI/UX for a disaster management system, optimizing task allocation.",
+      "Developed the front-end application using Flutter.",
+      "Mentored a developer to learn Flutter and its ecosystem.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Mobile Developer",
+    company_name: "Na Soft",
+    icon: nasoft,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2022 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The goal was to build a stock market trading app. My primary responsibility was to design the app's\n" +
+      "front-end and implement it in Flutter. I learned about the Flutter framework and I also gained\n" +
+      "experience in design thinking, prototyping, and Ul/UX design",
     ],
   },
-  {
+  /*{
     title: "Full stack Developer",
     company_name: "Meta",
     icon: meta,
@@ -191,112 +189,47 @@ export const EXPERIENCES = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  },*/
 ] as const;
 
 // Testimonials
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "It was a pleasure working with you.",
+    name: "Insaf Ayari",
+    designation: "CEO",
+    company: "Food4Future",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Truly phenomenal, best developer in the entire world!",
+    name: "Hela Talbi",
+    designation: "Future Co-Founder",
+    company: "Hack & Stack",
     image: user2,
   },
-  {
+  /*{
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
     image: user3,
-  },
+  },*/
 ] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "NoteCraft",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "A comprehensive Novel-Writing app designed to make writing novels easier " +
+        "with world-building and plotting tools all in one place.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -304,79 +237,150 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project1,
+    source_code_link: "https://github.com/safa-hathroubi",
+    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+  },
+  {
+    name: "Spiraw",
+    description:
+      "A multifunctional IoT mobile application for spirulina cultivation," +
+        "complete with a social media module and an integrated e-shop",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mqtt",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project2,
+    source_code_link: "https://github.com/safa-hathroubi",
+    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+  },
+  {
+    name: "AquaBob",
+    description:
+      "An ocean-themed 3D exploration game that enables the player to delve into various environments," +
+        "collect the jewels and postcards all while learning about different fauna and flora.",
+    tags: [
+      {
+        name: "unity3d",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "c#",
+        color: "green-text-gradient",
+      },
+      {
+        name: "navmesh",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project3,
+    source_code_link: "https://github.com/safa-hathroubi",
+    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+  },
+  {
+    name: "Esprit Space",
+    description:
+      "A student iOS app for managing academic activities, including grades, attendance,\n" +
+        "club events, and university news, ensuring seamless navigation, security with FaceID and dark mode.",
+    tags: [
+      {
+        name: "swiftui",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    source_code_link: "https://github.com/safa-hathroubi",
+    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
   },
   {
-    name: "Cryptoverse",
+    name: "Task Management App",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "This application was designed and developed" +
+        "to facilitate task management and allocation during natural disasters, enhancing preparedness and response efforts.",
     tags: [
       {
-        name: "react",
+        name: "figma",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "flutter",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "https://github.com/safa-hathroubi",
+    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
   },
   {
-    name: "Travel Advisor",
+    name: "Elemental Odyssey",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "A trading card game featuring 1v1 battles between characters from the Four Elemental Clans: Fire, Water, Earth and Air. " +
+        "My role was designing the game and marketplace UI, as well as all the character cards, and developing the outside-game interfaces.",
     tags: [
       {
-        name: "react",
+        name: "unity2d",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "c#",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "figma",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "yellow-text-gradient",
+      }
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "https://github.com/safa-hathroubi",
+    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
   },
 ] as const;
 
 export const SOCIALS = [
-  {
+  /*{
     name: "YouTube",
     icon: youtube,
     link: "https://www.youtube.com/@OPGAMER.",
-  },
+  },*/
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
+    link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+  },/*
   {
     name: "Twitter",
     icon: twitter,
     link: "https://twitter.com/TechnicalShubam",
-  },
+  },*/
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/safa-hathroubi",
   },
 ] as const;
