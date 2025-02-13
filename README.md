@@ -2,16 +2,7 @@
 
 # Modern 3D Portfolio using React, Three.js and Typescript
 
-![Modern 3D Portfolio using React, Three.js and Typescript](/.github/images/img_main.png "Modern 3D Portfolio using React, Three.js and Typescript")
-
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/pulls "GitHub pull requests")
-[![Netlify status](https://api.netlify.com/api/v1/badges/5c77ba92-e2f5-468e-99f1-3543906a90cb/deploy-status)](https://shubam.netlify.app/ "Netlify status")
+![Modern 3D Portfolio using React, Three.js and Typescript](/.github/images/hero_screenshot.png "Modern 3D Portfolio using React, Three.js and Typescript")
 
 <!-- Table of Contents -->
 <details>
@@ -22,84 +13,17 @@
 
 </summary>
 
-- [Folder Structure](#bangbang-folder-structure)
 - [Getting Started](#toolbox-getting-started)
 - [Screenshots](#camera-screenshots)
 - [Tech Stack](#gear-tech-stack)
-- [Stats](#wrench-stats)
 - [Contribute](#raised_hands-contribute)
 - [Acknowledgements](#gem-acknowledgements)
-- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
-- [Follow Me](#rocket-follow-me)
 - [Learn More](#books-learn-more)
 - [Deploy on Netlify](#page_with_curl-deploy-on-netlify)
 - [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
 - [Give A Star](#star-give-a-star)
 
 </details>
-
-## :bangbang: Folder Structure
-
-Here is the folder structure of this app.
-
-```bash
-3d-portfolio/
-  |- public/
-    |-- desktop_pc/
-    |-- planet/
-    |-- apple-touch-icon.png
-    |-- favicon.ico
-    |-- favicon16.png
-    |-- favicon32.png
-  |- src/
-    |-- assets/
-        |--- company/
-        |--- projects/
-        |--- socials/
-        |--- tech/
-        |--- testimonials/
-        |--- index.ts
-    |-- components/
-        |--- canvas/
-        |--- about.tsx
-        |--- banner.tsx
-        |--- contact.tsx
-        |--- experience.tsx
-        |--- feedbacks.tsx
-        |--- footer.tsx
-        |--- hero.tsx
-        |--- index.ts
-        |--- loader.tsx
-        |--- navbar.tsx
-        |--- tech.tsx
-        |--- works.tsx
-    |-- constants/
-        |--- index.ts
-    |-- hoc/
-        |--- index.ts
-        |--- section-wrapper.tsx
-    |-- utils/
-        |--- lib.ts
-        |--- motion.ts
-    |-- app.tsx
-    |-- env.d.ts
-    |-- index.css
-    |-- main.tsx
-    |-- styles.ts
-  |- .env
-  |- .env.example
-  |- .gitignore
-  |- index.html
-  |- package-lock.json
-  |- package.json
-  |- postcss.config.cjs
-  |- tailwind.config.ts
-  |- tsconfig.json
-  |- vite.config.ts
-```
-
-<br />
 
 ## :toolbox: Getting Started
 
@@ -156,21 +80,17 @@ VITE_APP_EMAILJS_RECIEVER=your@email.com
 
 ## :camera: Screenshots:
 
-![Showcase your skills](/.github/images/img1.png "Showcase your skills")
+![Showcase your skills](/.github/images/technologies_screenshot_portfolio.png "Showcase your skills")
 
-![Showcase your projects](/.github/images/img2.png "Showcase your projects")
+![Showcase your projects](/.github/images/projects_screenshot_portfolio.png "Showcase your projects")
 
-![Modern UI/UX](/.github/images/img3.png "Modern UI/UX")
+![Modern UI/UX](/.github/images/experience_screenshot_portfolio.png "Modern UI/UX")
 
-![Functional Contact form](/.github/images/img4.png "Functional Contact form")
+![Functional Contact form](/.github/images/contactme_screenshot_portfolio.png "Functional Contact form")
 
 ## :gear: Tech Stack
 
 [![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Vite JS](https://skillicons.dev/icons?i=vite "Vite JS")](https://vitejs.dev/ "Vite JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify")
-
-## :wrench: Stats
-
-[![Stats for 3D Portfolio](/.github/images/stats.svg "Stats for 3D Portfolio")](https://pagespeed.web.dev/analysis?url=https://shubam.netlify.app/ "Stats for 3D Portfolio")
 
 ## :raised_hands: Contribute
 
@@ -178,7 +98,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 ## :gem: Acknowledgements
 
-Useful resources and dependencies that are used in 3D Portfolio.
+Useful resources and dependencies used in this Portfolio.
 
 - [@emailjs/browser](https://www.npmjs.com/package/@emailjs/browser): ^3.11.0
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^9.96.1
@@ -205,15 +125,6 @@ Useful resources and dependencies that are used in 3D Portfolio.
 - [typescript](https://www.npmjs.com/package/typescript): ^5.3.3
 - [vite](https://www.npmjs.com/package/vite): ^5.0.12
 
-## :coffee: Buy Me a Coffee
-
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
-
-## :rocket: Follow Me
-
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2F3d-portfolio "Tweet")
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCNAz_hUVBG2ZUN8TVm0bmYw)](https://www.youtube.com/@OPGAMER. "Subscribe my YouTube Channel")
 
 ## :books: Learn More
 
@@ -255,15 +166,6 @@ Check out [Vite.js deployment documentation](https://vitejs.dev/guide/static-dep
 
 You can also give this repository a star to show more people and they can use this repository.
 
-## :star2: Star History
-
-<a href="https://star-history.com/#sanidhyy/3d-portfolio&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/3d-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/3d-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/3d-portfolio&type=Timeline" />
-</picture>
-</a>
 
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
