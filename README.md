@@ -82,15 +82,15 @@ VITE_APP_EMAILJS_RECIEVER=your@email.com
 
 ![Showcase your skills](/.github/images/technologies_screenshot_portfolio.png "Showcase your skills")
 
-![Showcase your projects](/.github/images/projects_screenshot_portfolio.png "Showcase your projects")
+![Showcase your projects](/.github/images/projects_screenshot.png "Showcase your projects")
 
-![Modern UI/UX](/.github/images/experience_screenshot_portfolio.png "Modern UI/UX")
+![Modern UI/UX](/.github/images/experience_screenshot.png "Modern UI/UX")
 
-![Functional Contact form](/.github/images/contactme_screenshot_portfolio.png "Functional Contact form")
+![Functional Contact form](/.github/images/contact_screenshot.png "Functional Contact form")
 
 ## :gear: Tech Stack
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Vite JS](https://skillicons.dev/icons?i=vite "Vite JS")](https://vitejs.dev/ "Vite JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify")
+[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Vite JS](https://skillicons.dev/icons?i=vite "Vite JS")](https://vitejs.dev/ "Vite JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Javascript](https://skillicons.dev/icons?i=js "Javascript")](https://javascript.dev/ "Javascript")
 
 ## :raised_hands: Contribute
 
