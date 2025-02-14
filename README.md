@@ -166,6 +166,11 @@ Check out [Vite.js deployment documentation](https://vitejs.dev/guide/static-dep
 
 You can also give this repository a star to show more people and they can use this repository.
 
+## Credits
+
+This project was originally started by [Sanidhya Kumar Verma](https://github.com/sanidhyy/3d-portfolio/). I took the initial version of the project and edited it to fit my personal needs and style, transforming it into my own thing.
+
+Thank you to Sanidhya for the fantastic foundation!
 
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
