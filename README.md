@@ -90,8 +90,7 @@ VITE_APP_EMAILJS_RECIEVER=your@email.com
 
 ## :gear: Tech Stack
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Vite JS](https://skillicons.dev/icons?i=vite "Vite JS")](https://vitejs.dev/ "Vite JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS")
-[![React JS](https://skillicons.dev/icons?i=react "Javascript")](https://javascript.dev/ "Javascript") [![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS")
+[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Vite JS](https://skillicons.dev/icons?i=vite "Vite JS")](https://vitejs.dev/ "Vite JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Javascript](https://skillicons.dev/icons?i=js "Javascript")](https://javascript.dev/ "Javascript")
 
 ## :raised_hands: Contribute
 
