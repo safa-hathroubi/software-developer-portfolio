@@ -1,6 +1,6 @@
 import { OrbitControls, useGLTF } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
-import { Suspense } from "react";
+import {Canvas, useFrame, useThree} from "@react-three/fiber";
+import {Suspense, useRef} from "react";
 
 import CanvasLoader from "../loader";
 
@@ -10,9 +10,35 @@ const Earth = () => {
   const earth = useGLTF("./earth/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={2} position-y={0} rotation-y={0} />
+      <group>
+    <primitive object={earth.scene} scale={2.2} position-y={0} rotation-y={0} />
+      </group>
+);
+};
+
+// Light attached to the camera
+const CameraWithLight = () => {
+  const cameraRef = useRef<THREE.PerspectiveCamera>(null);
+  const { camera } = useThree();
+  const groupRef = useRef<THREE.Group>(null);
+
+  useFrame(() => {
+    // Update the group's position and rotation to match the camera
+    if (groupRef.current) {
+      groupRef.current.position.copy(camera.position);
+      groupRef.current.rotation.copy(camera.rotation);
+    }
+  });
+
+  return (
+      <group ref={groupRef}>
+        <perspectiveCamera ref={cameraRef} />
+        {/* Attach a point light that follows the camera */}
+        <directionalLight intensity={300} position={[-40, 10, 500]} color={"#f7abff"} />
+      </group>
   );
 };
+
 
 // Earth Canvas
 const EarthCanvas = () => {
@@ -31,6 +57,9 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+
+        {/* Lights */}
+        <CameraWithLight /> {/* Light attached to the camera */}
 
         {/* Earth */}
         <Earth />
