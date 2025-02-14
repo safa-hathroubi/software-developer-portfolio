@@ -16,14 +16,14 @@ export const Hero = () => {
       >
         {/* Title */}
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+          <div className="w-5 h-5 rounded-full bg-[#bf5eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
         {/* About Me */}
         <div>
           <h1 className={cn(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Safa</span>
+            Hi, I'm <span className="text-[#bf5eff]">Safa</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
             I develop mobile & web applications, and <br className="sm:block hidden" />

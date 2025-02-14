@@ -202,14 +202,14 @@ export const TESTIMONIALS = [
     company: "Food4Future",
     image: user1,
   },
-  {
+  /*{
     testimonial:
       "Truly phenomenal, best developer in the entire world!",
     name: "Hela Talbi",
     designation: "Future Co-Founder",
     company: "Hack & Stack",
     image: user2,
-  },
+  },*/
   /*{
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
