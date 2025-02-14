@@ -64,7 +64,7 @@ VITE_APP_EMAILJS_RECIEVER=your@email.com
 - Look for API keys or integration settings.
 - Copy the Public Key associated with your account.
 
-![Copy public key](/.github/images/step_emailjs.png "Copy public key")
+![Copy public key](/.github/images/emailjs_screenshot.png "Copy public key")
 
 8. ### EmailJS Receiver (Replace VITE_APP_EMAILJS_RECIEVER):
 
