@@ -37,3 +37,21 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+/*
+Temporarily deleted content from package.json about funding
+
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/sanidhy"
+    },
+    {
+      "type": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/sanidhy"
+    }
+  ],
+ */
