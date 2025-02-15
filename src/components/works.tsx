@@ -40,33 +40,63 @@ const ProjectCard = ({
         />
 
         {/* Live Site */}
+        {/*<div className="absolute inset-0 flex justify-end m-3 card-img_hover">*/}
+        {/*  <div*/}
+        {/*    onClick={() => window.open(live_site_link, "_blank", "noreferrer")}*/}
+        {/*    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"*/}
+        {/*  >*/}
+        {/*    <img*/}
+        {/*      src={preview}*/}
+        {/*      alt="Live Site"*/}
+        {/*      title="Live Site"*/}
+        {/*      className="w-2/3 h-2/3 object-contain"*/}
+        {/*    />*/}
+        {/*  </div>*/}
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-          <div
-            onClick={() => window.open(live_site_link, "_blank", "noreferrer")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-          >
-            <img
-              src={preview}
-              alt="Live Site"
-              title="Live Site"
-              className="w-2/3 h-2/3 object-contain"
-            />
-          </div>
+          {/* Live Site Button */}
+          {live_site_link && (
+              <div
+                  onClick={() => window.open(live_site_link, "_blank", "noreferrer")}
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                    src={preview}
+                    alt="Live Site"
+                    title="Live Site"
+                    className="w-2/3 h-2/3 object-contain"
+                />
+              </div>
+          )}
 
           {/* Github */}
-          <div
-            onClick={() =>
-              window.open(source_code_link, "_blank", "noreferrer")
-            }
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"
-          >
-            <img
-              src={github}
-              alt="Github"
-              title="Github"
-              className="w-1/2 h-1/2 object-contain"
-            />
-          </div>
+      {/*    <div*/}
+      {/*      onClick={() =>*/}
+      {/*        window.open(source_code_link, "_blank", "noreferrer")*/}
+      {/*      }*/}
+      {/*      className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"*/}
+      {/*    >*/}
+      {/*      <img*/}
+      {/*        src={github}*/}
+      {/*        alt="Github"*/}
+      {/*        title="Github"*/}
+      {/*        className="w-1/2 h-1/2 object-contain"*/}
+      {/*      />*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
+          {source_code_link && (
+              <div
+                  onClick={() => window.open(source_code_link, "_blank", "noreferrer")}
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"
+              >
+                <img
+                    src={github}
+                    alt="Github"
+                    title="Github"
+                    className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+          )}
         </div>
       </div>
 

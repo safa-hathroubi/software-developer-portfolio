@@ -226,7 +226,7 @@ export const PROJECTS = [
     name: "NoteCraft",
     description:
       "A comprehensive Novel-Writing app designed to make writing novels easier " +
-        "with world-building and plotting tools all in one place.",
+        "with world-building and plotting tools all in one place. This is a personal project I'm currently working on, expect to see more soon!",
     tags: [
       {
         name: "react",
@@ -242,14 +242,12 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/safa-hathroubi",
-    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
   },
   {
     name: "Spiraw",
     description:
       "A multifunctional IoT mobile application for spirulina cultivation," +
-        "complete with a social media module and an integrated e-shop",
+        " with an integrated e-shop. Features include real-time data from the Spiraw machine via MQTT, and a fully-functional social networking module.",
     tags: [
       {
         name: "flutter",
@@ -265,14 +263,13 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/safa-hathroubi",
-    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+    live_site_link: "https://drive.google.com/file/d/1QrcPHUnfYaWxCYkkkeM7BeeJNfT2tKjo/view?usp=sharing",
   },
   {
     name: "AquaBob",
     description:
       "An ocean-themed 3D exploration game that enables the player to delve into various environments," +
-        "collect the jewels and postcards all while learning about different fauna and flora.",
+        " collect the jewels and postcards all while learning about different fauna and flora.",
     tags: [
       {
         name: "unity3d",
@@ -311,8 +308,7 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/safa-hathroubi",
-    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+    source_code_link: "https://github.com/safa-hathroubi/Esprit_Space",
   },
   {
     name: "Task Management App",
@@ -330,8 +326,7 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/safa-hathroubi",
-    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+    source_code_link: "https://github.com/safa-hathroubi/task_management_app_ui",
   },
   {
     name: "Elemental Odyssey",
