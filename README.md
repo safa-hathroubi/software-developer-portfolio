@@ -66,7 +66,7 @@ VITE_APP_EMAILJS_RECIEVER=your@email.com
 
 ![Copy public key](/.github/images/emailjs_screenshot.png "Copy public key")
 
-8. ### EmailJS Receiver (Replace VITE_APP_EMAILJS_RECIEVER):
+8. ### EmailJS Receiver (Replace VITE_APP_EMAILJS_RECEIVER):
 
 - Choose the email address where you want to receive emails.
 - If needed, create an email address or use an existing one.
