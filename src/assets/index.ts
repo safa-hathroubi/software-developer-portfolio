@@ -25,8 +25,8 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
-import flutter from "./tech/flutter.png";
 import firebase from "./tech/firebase.png";
+import flutter from "./tech/flutter.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,8 +34,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import food4future from "./company/food4future.png";
-import telcotec from "./company/telcotec.png";
+import freelance from "./company/freelance.png";
+import nami from "./company/nami.png";
 import nasoft from "./company/nasoft.png";
+import telcotec from "./company/telcotec.png";
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -48,54 +50,28 @@ import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
 import user3 from "./testimonials/user3.jpg";
 
+import artstation from "./socials/artstation.svg";
 import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
 
 export {
-  backend,
+  artstation, backend,
   bulb,
   close,
-  creator,
-  logo,
-  menu,
-  mobile,
-  preview,
-  web,
-  css,
+  creator, css,
   docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  project1,
+  figma, firebase, flutter, food4future, freelance, git, github, html, javascript, linkedin, logo,
+  menu, meta, mobile, mongodb, nami, nasoft, nodejs, preview, project1,
   project2,
   project3,
   project4,
   project5,
-  project6,
-  user1,
+  project6, reactjs,
+  redux, shopify,
+  starbucks, tailwind, telcotec, tesla, threejs, twitter, typescript, user1,
   user2,
-  user3,
-  github,
-  youtube,
-  linkedin,
-  twitter,
-    food4future,
-    telcotec,
-    nasoft,
-    flutter,
-    firebase
+  user3, web, youtube
 };
+

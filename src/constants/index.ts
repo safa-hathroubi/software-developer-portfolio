@@ -2,40 +2,38 @@
 // ! Don't remove anything from here if not sure
 
 import {
-  mobile,
+  artstation,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,
+  figma,
+  firebase,
+  flutter,
+  food4future,
+  freelance,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mobile,
+  mongodb,
+  nami,
+  nasoft,
+  nodejs,
   project1,
   project2,
   project3,
   project4,
   project5,
   project6,
+  reactjs,
+  telcotec,
+  threejs,
+  typescript,
   user1,
-  user2,
-  user3,
-  youtube,
-  linkedin,
-  twitter,
-  github, food4future, telcotec, nasoft, flutter, firebase,
+  web
 } from "../assets";
 
 // Navbar Links
@@ -141,6 +139,41 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
+    title: "Flutter Developer",
+    company_name: "Nami Group",
+    icon: nami,
+    iconBg: "#383E56",
+    date: "July 2025 - Present",
+    points: [
+      "Developing Nami Kids, a launcher app to encourage children to learn with their smartphone via an intelligent algorithm of collecting points for game time via learning.",
+      "Developing Nami Parents, the companion app that lets the parent track the child's game and learning time as well as manage the apps on the child's phone.",
+      "Designed the UI interfaces for both apps in Figma.",
+    ],
+  },
+  {
+    title: "Wev Developer",
+    company_name: "Freelance Work",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "Feb 2025 - June 2025",
+    points: [
+      "Implemented interactive web pages with React.js from Figma designs.",
+      "Implemented logic for static web pages with Javascript.",
+      "Added 3D elements to React.js project with Three.js.",
+    ],
+  },
+  {
+    title: "UI/UX Designer",
+    company_name: "Freelance Work",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "July 2024 - Sept 2024",
+    points: [
+      "Designed UI interfaces in Figma for mobile applications, complete with prototypes.",
+      "Designed brand colours, logos and graphic charts for clients.",
+    ],
+  },
+  {
     title: "Mobile Software Engineer",
     company_name: "Food4Future Startup",
     icon: food4future,
@@ -226,7 +259,7 @@ export const PROJECTS = [
     name: "NoteCraft",
     description:
       "A comprehensive Novel-Writing app designed to make writing novels easier " +
-        "with world-building and plotting tools all in one place. This is a personal project I'm currently working on, expect to see more soon!",
+      "with world-building and plotting tools all in one place. This is a personal project I'm currently working on, expect to see more soon!",
     tags: [
       {
         name: "react",
@@ -247,7 +280,7 @@ export const PROJECTS = [
     name: "Spiraw",
     description:
       "A multifunctional IoT mobile application for spirulina cultivation," +
-        " with an integrated e-shop. Features include real-time data from the Spiraw machine via MQTT, and a fully-functional social networking module.",
+      " with an integrated e-shop. Features include real-time data from the Spiraw machine via MQTT, and a fully-functional social networking module.",
     tags: [
       {
         name: "flutter",
@@ -269,7 +302,7 @@ export const PROJECTS = [
     name: "AquaBob",
     description:
       "An ocean-themed 3D exploration game that enables the player to delve into various environments," +
-        " collect the jewels and postcards all while learning about different fauna and flora.",
+      " collect the jewels and postcards all while learning about different fauna and flora.",
     tags: [
       {
         name: "unity3d",
@@ -285,14 +318,14 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/safa-hathroubi",
-    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+    //source_code_link: "https://github.com/safa-hathroubi",
+    live_site_link: "https://drive.google.com/drive/folders/1F0L5BZUrs9s_ILc1ejZaV5LmevftBWgX?usp=sharing",
   },
   {
     name: "Esprit Space",
     description:
       "A student iOS app for managing academic activities, including grades, attendance,\n" +
-        "club events, and university news, ensuring seamless navigation, security with FaceID and dark mode.",
+      "club events, and university news, ensuring seamless navigation, security with FaceID and dark mode.",
     tags: [
       {
         name: "swiftui",
@@ -309,12 +342,13 @@ export const PROJECTS = [
     ],
     image: project4,
     source_code_link: "https://github.com/safa-hathroubi/Esprit_Space",
+    live_site_link: "https://drive.google.com/drive/folders/1ZkyNcboEbEO-3CeyoanxA9OJ-bRBqtaR?usp=sharing",
   },
   {
     name: "Task Management App",
     description:
       "This application was designed and developed" +
-        "to facilitate task management and allocation during natural disasters, enhancing preparedness and response efforts.",
+      "to facilitate task management and allocation during natural disasters, enhancing preparedness and response efforts.",
     tags: [
       {
         name: "figma",
@@ -327,12 +361,13 @@ export const PROJECTS = [
     ],
     image: project5,
     source_code_link: "https://github.com/safa-hathroubi/task_management_app_ui",
+    live_site_link: "https://drive.google.com/file/d/1dse86fkSloeWbUzxkNIaa0uw-xK-3QW2/view?usp=sharing",
   },
   {
     name: "Elemental Odyssey",
     description:
       "A trading card game featuring 1v1 battles between characters from the Four Elemental Clans: Fire, Water, Earth and Air. " +
-        "My role was designing the game and marketplace UI, as well as all the character cards, and developing the outside-game interfaces.",
+      "My role was designing the game and marketplace UI, as well as all the character cards, and developing the outside-game interfaces.",
     tags: [
       {
         name: "unity2d",
@@ -353,7 +388,7 @@ export const PROJECTS = [
     ],
     image: project6,
     source_code_link: "https://github.com/safa-hathroubi",
-    live_site_link: "https://www.linkedin.com/in/safa-hathroubi-9a295523a/",
+    live_site_link: "https://drive.google.com/file/d/1biQ6TQaOQN18LsWZSIzYnSRa9CFT1FZv/view?usp=sharing",
   },
 ] as const;
 
@@ -363,6 +398,11 @@ export const SOCIALS = [
     icon: youtube,
     link: "https://www.youtube.com/@OPGAMER.",
   },*/
+  {
+    name: "Artstation",
+    icon: artstation,
+    link: "https://www.artstation.com/sicfae",
+  },
   {
     name: "Linkedin",
     icon: linkedin,
