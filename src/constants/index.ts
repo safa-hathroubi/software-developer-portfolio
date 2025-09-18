@@ -151,7 +151,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Wev Developer",
+    title: "Web & Mobile Developer",
     company_name: "Freelance Work",
     icon: freelance,
     iconBg: "#383E56",
@@ -160,6 +160,7 @@ export const EXPERIENCES = [
       "Implemented interactive web pages with React.js from Figma designs.",
       "Implemented logic for static web pages with Javascript.",
       "Added 3D elements to React.js project with Three.js.",
+      "Developed mobile applications with Flutter.",
     ],
   },
   {
