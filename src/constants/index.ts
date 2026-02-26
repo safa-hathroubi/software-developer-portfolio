@@ -32,6 +32,7 @@ import {
   project5,
   project6,
   reactjs,
+  seac,
   telcotec,
   threejs,
   typescript,
@@ -156,7 +157,7 @@ export const EXPERIENCES = [
   {
     title: "Software Developer",
     company_name: "SEAC S.p.A.",
-    icon: nami,
+    icon: seac,
     iconBg: "#383E56",
     date: "Nov 2025 - Present",
     points: [

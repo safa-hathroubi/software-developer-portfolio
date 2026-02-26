@@ -40,6 +40,7 @@ import food4future from "./company/food4future.png";
 import freelance from "./company/freelance.png";
 import nami from "./company/nami.png";
 import nasoft from "./company/nasoft.png";
+import seac from "./company/seac.png";
 import telcotec from "./company/telcotec.png";
 
 import project1 from "./projects/project1.png";
@@ -72,7 +73,7 @@ export {
   project4,
   project5,
   project6, reactjs,
-  redux, shopify,
+  redux, seac, shopify,
   starbucks, tailwind, telcotec, tesla, threejs, twitter, typescript, user1,
   user2,
   user3, web, youtube
