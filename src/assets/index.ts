@@ -11,8 +11,11 @@ import mobile from "./mobile.png";
 import preview from "./preview.png";
 import web from "./web.png";
 
+import azure from "./tech/azure.png";
+import csharp from "./tech/csharp.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import dotnet from "./tech/dotnet.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -57,11 +60,11 @@ import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
 
 export {
-  artstation, backend,
+  artstation, azure, backend,
   bulb,
   close,
-  creator, css,
-  docker,
+  creator, csharp, css,
+  docker, dotnet,
   figma, firebase, flutter, food4future, freelance, git, github, html, javascript, linkedin, logo,
   menu, meta, mobile, mongodb, nami, nasoft, nodejs, preview, project1,
   project2,

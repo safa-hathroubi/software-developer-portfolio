@@ -3,10 +3,13 @@
 
 import {
   artstation,
+  azure,
   backend,
   creator,
+  csharp,
   css,
   docker,
+  dotnet,
   figma,
   firebase,
   flutter,
@@ -134,20 +137,44 @@ export const TECHNOLOGIES = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Azure Devops",
+    icon: azure,
+  },
+  {
+    name: ".NET",
+    icon: dotnet,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Flutter Developer",
+    title: "Software Developer",
+    company_name: "SEAC S.p.A.",
+    icon: nami,
+    iconBg: "#383E56",
+    date: "Nov 2025 - Present",
+    points: [
+      "Development and maintenance of accounting and administration corporate solutions",
+      "using ASP.NET and Windows Forms, while collaborating in Agile Scrum teams.",
+      "Managing tasks and version control with Azure DevOps",
+    ],
+  },
+  {
+    title: "Co-Founder & Lead Developer",
     company_name: "Nami Group",
     icon: nami,
     iconBg: "#383E56",
     date: "July 2025 - Present",
     points: [
-      "Developing Nami Kids, a launcher app to encourage children to learn with their smartphone via an intelligent algorithm of collecting points for game time via learning.",
-      "Developing Nami Parents, the companion app that lets the parent track the child's game and learning time as well as manage the apps on the child's phone.",
-      "Designed the UI interfaces for both apps in Figma.",
+      "Designed and developed Nami Kids, two connected educational, parental-control apps.",
+      "Integrated Firebase for authentication, real-time sync, and cross-app communication.",
+      "Coordinated technical decisions and defined the product features and architecture.",
     ],
   },
   {
